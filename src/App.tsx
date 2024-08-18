@@ -23,7 +23,7 @@ const App: React.FC = () => {
   };
 
   const test = () => {
-    return "test";
+    return "testing";
   };
 
   return (
