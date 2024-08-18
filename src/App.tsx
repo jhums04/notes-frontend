@@ -22,6 +22,10 @@ const App: React.FC = () => {
     setNotes(notes.filter((note) => note.id !== id));
   };
 
+  const test = () => {
+    return "test";
+  };
+
   return (
     <div className="App">
       <h1>Note Saving App</h1>
